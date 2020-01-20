@@ -1,0 +1,9 @@
+name: "PrintV2"
+op: "PrintV2"
+input: "StringFormat"
+attr {
+  key: "output_stream"
+  value {
+    s: "stderr"
+  }
+}
